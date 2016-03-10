@@ -1,0 +1,29 @@
+{
+  "name": "initial-webpack",
+  "version": "1.0.0",
+  "description": "General installation of Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --port 3030 --watch --inline --content-base app",
+    "build": ""
+  },
+  "keywords": [
+    "webpack",
+    "stylus",
+    "sass",
+    "angularjs"
+  ],
+  "author": "Julio Silva <julio.sguz@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "stylus-loader": "^1.5.1",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
